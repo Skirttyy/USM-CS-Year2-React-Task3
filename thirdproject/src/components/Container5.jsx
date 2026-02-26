@@ -5,7 +5,7 @@ import Button from "./Button"
 export default function Container5 () {
     const [dieNumber, setDieNumber] = useState(1)
 
-    function handlerDieNumber (_prevNumber) {
+    function handlerDieNumber (prevNumber) {
         setDieNumber(Math.floor(Math.random() * 6) + 1)
     }
     
