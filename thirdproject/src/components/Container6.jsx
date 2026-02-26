@@ -3,18 +3,19 @@ import "./Container.css"
 import Button from "./Button"
 
 const style = {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    height: "100px",
-    width: "100px",
-    borderStyle: "solid",
-    borderWidth: "5px",
-    borderColor: "black",
-    borderRadius: "10px",
-    color: "black",
-    fontSize: "40px"
-}
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  height: "100px",
+  width: "100px",
+  borderRadius: "15px",
+  color: "black",
+  fontSize: "32px",
+  fontWeight: "600",
+  cursor: "pointer",
+  transition: "all 0.3s ease",
+  boxShadow: "0 5px 15px rgba(0,0,0,0.2)"
+};
 
 export default function Container6() {
     const [channelNumber, setChannelNumber] = useState(100)
