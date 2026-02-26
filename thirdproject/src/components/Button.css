@@ -1,0 +1,39 @@
+.buttonRed {
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    border: none;
+
+    background: linear-gradient(135deg, #ff4b4b, #d90429);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonRed:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(217, 4, 41, 0.4);
+}
+
+.buttonGreen {
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    border: none;
+
+    background: linear-gradient(135deg, #38b000, #008000);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonGreen:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(56, 176, 0, 0.4);
+}

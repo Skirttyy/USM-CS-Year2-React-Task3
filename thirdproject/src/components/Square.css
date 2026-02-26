@@ -1,0 +1,15 @@
+.square {
+    height: 200px;
+    width: 200px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(135deg, #ff4b4b, #ff8fa3);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.square:hover {
+    transform: scale(1.05);
+}

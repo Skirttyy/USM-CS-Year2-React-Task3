@@ -1,0 +1,30 @@
+.button-unselected {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+
+    background-color: #f1f3f5;
+    color: #333;
+
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-unselected:hover {
+    background-color: #e9ecef;
+}
+
+.button-selected {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    color: white;
+
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
+    transition: all 0.3s ease;
+}
